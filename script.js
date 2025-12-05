@@ -481,7 +481,7 @@ function initProjectsData() {
             image: 'https://i.postimg.cc/fyhpF33w/Unveiling-Market-Manipulation.png',
             category: 'ML',
             tags: ['Python', 'Machine Learning', 'Data Science', 'Pandas', 'Sklearn', 'Numpy'],
-            DemoPaper: 'https://drive.google.com/file/d/14v6jkpu8FoeSvozHKXjR2mz34YQAbpaq/view'
+            codeLink: 'https://drive.google.com/file/d/14v6jkpu8FoeSvozHKXjR2mz34YQAbpaq/view'
         },
         {
             id: 11,
@@ -490,7 +490,7 @@ function initProjectsData() {
             image: 'https://i.postimg.cc/tT09q412/Thesis.png',
             category: 'ML',
             tags: ['Reinforcement Learning', 'Deep Learning', 'Computer Vision', 'Drone Technology', 'Artificial Potential Fields'],
-            DemoPaper: ''
+            codeLink: 'https://dspace.bracu.ac.bd/xmlui/handle/10361/26035'
         },
     ];
     
@@ -616,3 +616,4 @@ function initHaptics() {
     document.getElementById('theme-toggle')?.addEventListener('click', vibrateStrong, { passive: true });
     document.getElementById('back-to-top')?.addEventListener('click', vibrateStrong, { passive: true });
 }
+
